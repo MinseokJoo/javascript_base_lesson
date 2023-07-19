@@ -1,0 +1,6 @@
+Promise
+    비동기 처리에 대해, 처리가 끝나면 알려달라는 '약속'이다.
+        new 연산조 호출한 Promise의 인자로 넘어가는 콜백은 바로 실행된다.
+        그 내부의 resolve(또는 reject) 함수를 호출하는 구문이 있을 경우
+        resolve(또는 reject) 둘 중 하나가 실행되기 전까지는 then, catch로 넘어가지 않는다.
+        따라서, 비동기 작업이 완료될 때 비로소 resolve, reject 호출
